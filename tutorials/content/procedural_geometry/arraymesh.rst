@@ -59,6 +59,8 @@ Under ``_ready()``, create a new Array.
   .. code-tab:: gdscript GDScript
 
     var arr = []
+  .. code-tab:: csharp
+    var = Godot.Collections.Array();
 
 This will be the array that we keep our surface information in, it will hold
 all the arrays of data that the surface needs. Godot will expect it to be of
